@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+
+<style>
+
+.body{
+    margin: 0px;
+    
+}
+
+.header{
+    background-color: #21c08b;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__logo{
+    margin-left: 30px;
+    width: 200px;   
+}
+</style>
+
+<body class="body">
+ 
+  <header class="header"> 
+      <img class="header__logo" src="./logo-platzi-video-BW2.png" alt="Logo">
+  </header> 
+ 
+  <section class="login">
+
+      <div class="login__container">
+
+        <h2 class="login__container--title">Login</h2>
+
+        <form action="" class="login__container--form">
+            <input class="login__container--form_email" type="text" placeholder="E-mail">
+            <input class="login__container--form_password" type="password" placeholder="Password">
+            <input class="login__container--form_button" type="button" value="Login">
+        </form>
+
+        <div class="login__container--rememberMe">
+           <label >
+               <input class="login__item--checkbox" type="checkbox" name="Remember me">Remember me
+           </label>
+           <a href="/">Forgot your password?</a>
+        </div> 
+        
+        <div class="login__container--socialmedia">
+            <img src="./assets/google-icon.png" alt="google login"> Login with Google
+            <img src="./assets/twitter-icon.png" alt="twitter login"> Login with Twitter
+        </div>
+        
+        <p class="login__container--register">Don't have an account? <a href="/">Sign in</a></p>
+
+      </div>
+  </section> 
+
+  <footer class="footer">
+    <a href="/">Terms and Conditions</a>
+    <a href="/">Privacy Policy</a>
+    <a href="/">Help</a>
+  </footer>
+
+</body>
+</html>
