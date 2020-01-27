@@ -211,3 +211,15 @@
 .footer a:hover{
     text-decoration: underline;
 }
+
+
+.error{
+    background: linear-gradient(#21c08b, #ab88ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);  
+}
